@@ -1,0 +1,117 @@
+/*Formata a página*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fonte de texto, cor e margin do texto*/
+#titulo{
+    font-family: serif;
+    color: #8E806A;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+
+#subtitulo{
+    font-family: serif;
+    color: #8E806A;
+    margin-left: 25%;
+    text-decoration: ;
+}
+
+/*altera posição da caixa selecione*/
+#selecao{
+    display: inline-block;
+}
+
+/*retira a borda geral do formulario*/
+fieldset{
+    border: 0;
+}
+
+/*altera o fundo, tipo de texto, tamanho, cor, posição do conteudo na esquerda, topo e rodapé,  */
+body{
+    background-color: #FEFCF3;
+    font-family: serif;
+    font-size: 1em;
+    color: #8E806A;
+    margin-left: 17%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+}
+
+/*Coloração dos placeholders*/
+input, select, p, button{
+    font-family: serif;
+    font-size: 1em;
+    color: #8E806A;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+/*espaços entres os campos*/
+.campo{
+    margin-bottom: 1em;
+}
+
+/*posição do preenchimento do lado ou abaixo*/
+.campo label{
+    display: inline;
+}
+
+/*altera tamanho do conteudo e espaçamento*/
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 4em;
+}
+
+/*tamanho da caixa digitar e selecione, borda da caixa,sombra 3D*/
+.campo input[type="text"], .campo input[type="tel"], .campo input[type="email"], .campo input[type="date"], .campo select{
+    padding: 0.1em;
+    border: 1px solid #8E806A;
+    box-shadow: 2px 2px 2px;
+    display: block;
+    outline: 0;
+}
+
+/*tamanho da caixa selecione*/
+.campo select{
+    padding-right: 2.1em;
+    margin-bottom: 0em;
+}
+
+/*Botão ENVIAR*/
+.botao{
+    font-size: 1.2em;
+    background: #8E806A;
+    border: 0;
+    margin-bottom: 1em;
+    color: #EEEEEE;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    top: 110%;
+    transform: translate(410%, 50%);
+}
+
+.botao:hover{
+    background: #E8C4C4;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.322);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+/*posição*/
+footer, h5{
+    margin-left: 17%;
+    text-transform: none;
+}
